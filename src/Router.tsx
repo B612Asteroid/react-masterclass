@@ -6,11 +6,11 @@ import Coin from "./routes/Coin";
 function Router() {
     return <BrowserRouter>
         <Switch>
-            <Route path="/:coinId">
-                <Coin />
-            </Route>
             <Route path="/coins">
                 <Coins />
+            </Route>
+            <Route path="/:coinId">
+                <Coin />
             </Route>
         </Switch>
     </BrowserRouter>
