@@ -1,8 +1,9 @@
 import styled from "styled-components";
-import React, {useEffect, useState} from "react";
+import React from "react";
 import {Link} from "react-router-dom";
 import {useQuery} from "react-query";
 import {fetchCoins} from "../api";
+import {Helmet} from "react-helmet";
 
 const Title = styled.h1`
   font-size: 48px;
@@ -70,6 +71,9 @@ interface ICoin {
 function Coins() {
     const { isLoading, data } = useQuery<ICoin[]>("allCoins", fetchCoins);
     return <Container>
+        <Helmet>
+            <title>Coin</title>
+        </Helmet>
         <Header>
             <Title>Coin</Title>
         </Header>
