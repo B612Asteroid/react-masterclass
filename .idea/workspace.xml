@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="077582c4-ac98-4eb3-b305-00c20297a92e" name="Changes" comment="[INIT] INIT">
+    <list default="true" id="077582c4-ac98-4eb3-b305-00c20297a92e" name="Changes" comment="[add] create chart">
+      <change afterPath="$PROJECT_DIR$/src/atoms.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Chart.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Coin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Coin.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Coins.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Coins.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styled.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styled.d.ts" afterDir="false" />
@@ -18,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -44,7 +49,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.typescriptcompiler&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/gibeomsong/dev/react-masterclass/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -64,7 +69,9 @@
       <updated>1685754003342</updated>
       <workItem from="1685754004505" duration="745000" />
       <workItem from="1685754999326" duration="11772000" />
-      <workItem from="1685976653935" duration="6629000" />
+      <workItem from="1685976653935" duration="24766000" />
+      <workItem from="1686226401434" duration="598000" />
+      <workItem from="1686227241481" duration="1479000" />
     </task>
     <task id="LOCAL-00001" summary="[INIT] INIT">
       <created>1686010250225</created>
@@ -73,7 +80,35 @@
       <option name="project" value="LOCAL" />
       <updated>1686010250225</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[add] fetch, style, Router state...">
+      <created>1686017866656</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686017866656</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[add] Coin Data Fetch...">
+      <created>1686033905061</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686033905061</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[add] fetch to ReactQuery">
+      <created>1686054574066</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686054574066</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[add] create chart">
+      <created>1686144992141</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686144992141</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +127,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[INIT] INIT" />
-    <option name="LAST_COMMIT_MESSAGE" value="[INIT] INIT" />
+    <MESSAGE value="[add] fetch, style, Router state..." />
+    <MESSAGE value="[add] Coin Data Fetch..." />
+    <MESSAGE value="[add] fetch to ReactQuery" />
+    <MESSAGE value="[add] create chart" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] create chart" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

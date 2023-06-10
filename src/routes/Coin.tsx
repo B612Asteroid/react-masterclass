@@ -132,7 +132,12 @@ interface PriceData {
         };
     };
 }
-function Coin() {
+
+interface ICoinProps {
+
+}
+
+function Coin({}: ICoinProps) {
     const {coinId} = useParams<RouteParams>();
     const {state} = useLocation<RouteState>();
     const {isLoading: infoLoading, data: infoData} = useQuery<InfoData>(["info", coinId], () => fetchCoinInfo(coinId));
